@@ -1,0 +1,71 @@
+body {
+  background: hsl(217, 54%, 11%);
+  display: grid;
+  place-items: center;
+}
+.container {
+  margin-top: 50px;
+  width: 350px;
+  background: hsl(216, 50%, 16%);
+  border: 2px solid hsl(216, 50%, 16%);
+  border-radius: 25px;
+}
+.text {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.creator {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.text p {
+  color: hsl(215, 51%, 70%);
+}
+.image img {
+  width: 300px;
+  height: 300px;
+  margin-left: 25px;
+  margin-top: 15px;
+  border: 2px solid hsl(216, 50%, 16%);
+  border-radius: 15px;
+  margin-bottom: -20px;
+}
+.image img :hover {
+  color: aquamarine;
+}
+.right {
+  float: right;
+  margin-top: -35px;
+  color: hsl(215, 51%, 70%);
+}
+.creator img {
+  width: 40px;
+  height: 40px;
+}
+.right2 {
+  float: right;
+  margin-top: 7px;
+}
+.right2 a {
+  color: hsl(178, 100%, 50%);
+}
+h5 {
+  color: hsl(178, 100%, 50%);
+  font-size: 25px;
+  font-weight: 400;
+}
+.left {
+  color: hsl(178, 100%, 50%);
+}
+.left p {
+  margin-left: 20px;
+  margin-top: -20px;
+}
+.right p {
+  margin-left: 20px;
+  margin-top: -20px;
+}
+.line {
+  border-top: 1px solid hsl(215, 32%, 27%);
+  margin-bottom: 5px;
+}
